@@ -1,0 +1,62 @@
+1.what is Html?
+html stands for hypertext markup language. it is used to define the structure of the web page using diffrernt 
+elements and tags.
+
+2.tags
+<!Doctype> : it declears the type of document in html
+<html>   : it is the root element
+<body>   : it contains the main content of the web page
+<link>   : links the internal and external links in the web page
+<title>  : title of the web page
+<head>   : contains metadata(it represents seo releated data)
+metadata : seo releated description
+<h1> to <h6> : heading tags (size of text decreaes or increases according to tag <h1>:: biggest tag <h6>:: smallest tag)
+<p>      : paragraph tag 
+<b>      : it makes text bold
+<br>     : it breaks the line between two sentence.(##it doesnot have closing tag) (empty tag)
+<hr>     : it creates a Horizontal line (##it doesnot have closing tag) (empty tag)
+<strong> : it makes text bold (used in important text)
+<i>    : it makes text italic
+<em>   : it makes text italic(used in important text)
+<mark> : Highlighted text
+<del>  : Deleted text
+<small> : smaller text
+<sub>  : Subscript (eg: H₂O)
+<sup>  : Superscript(eg: (a + b)2 = a2 + 2ab + b2)
+<span> : inline container that contains content
+<div>  : block container that contains content
+<ol>   : Ordered list
+<ul>   : Unordered list
+<li>   : listed items
+<table>: table container
+<tr>   : table row
+<td>   : table data
+<thead>: table header
+<tfooter>: table footer
+<a>    : Anchor tag it is used to link from one page to another
+<img>  : it shows an image with help of src
+<source>: defines the source of the picture or the video
+<form>  : form container for input data
+<input> : it helps to enter data in form(input type:text;) (##input field)
+<option>: defines option in dropdown list
+<label> : label for input
+
+##Attribute
+class : defines the class of an element
+id   : defines the unique id of an element
+style: adds inline/internal style to an element
+alt : defines about the image
+src : source of resources
+lang : defines the language of the element(language of web page)
+name: defines the name of an input element
+readonly: input field can only be read and cannot be changed
+required: must be filled compulsoryly in input field (## without filled we cannot be submit)
+novalidate: disables a form from submitting(## form action:novalidate)
+placeholder: used for providing hints inside the input field.
+height: describes the height of an element
+width: describes the width of an element
+cellpadding: specifies space betweeen the cell edge and cell content
+cellspacing: specifes the space betweeen each cell
+border: specifes the border of an element(types:solid, dotted line)
+colspan: specifes the number of columns a table should span
+rowspan: specifies the number of row a table should span

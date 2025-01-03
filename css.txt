@@ -1,0 +1,117 @@
+what is css?
+css(cascading style sheet) is a language use to style an html document how it should be displayed.
+
+##css selectors
+* : universal selector
+class: selects the element with specific class name
+id: selects an element with an specific id name
+element: selects an specific element
+
+## text styling
+font-size: sets the size of text
+color: sets the color of the text
+font-style: sets the font style
+font-family: sets the font family(eg: font-family: 'Times New Roman', Times, serif;)
+
+CSS colors
+background-color:sets the background color for html elements
+bordercolor:sets the color of border(bordor:1px solid red)
+{rgb(0,0,1),
+rgba(0,0,1,0.8)}
+background-image: specifies an image to use as the background of an element
+background-repeat: keeps the image with norepeat(default repeat)
+
+
+float
+ this property  floats the elements.
+        (float:left): floats elements towards left
+        (float:right): floats elements towards right
+        float: none: default
+        float:inherit: float like the parent does
+ clear
+  this property clears the floating elements on the direction that is set to clear
+        clear:right- doesnot allow any element to float on its right
+        clear:left-  doesnot allow any element to float on its left      
+        clear:both- doesnot allow any element to float on its both side       
+       clear:none- default
+       clear: inherit- inherits the clear value as parent
+ 
+ display:         
+ sets how the elements should be displayed on the screen( eg display: inline, inlineblock , block, grid, flex)
+   inline- displays element on inline 
+   block- display elemnts as block element
+   flex- displays elements as flex container(types: flex-row/flex-column/flex-rowreverse/flex-columnreverse)
+   grid- displays elements as grid container(in a design rowwise we make a different style with the help of row and column)
+   inlineblock- creates the block elements in inline container
+   table- lets the elements behave like table
+
+Property	             |Description
+column-gap              |	Specifies the gap between the columns
+gap	                  | specifies the gap between two element
+grid-column	            | A shorthand property for the grid-column-start and the grid-column-end properties
+grid-column-end         |	Specifies where to end the grid item
+grid-column-start       |	Specifies where to start the grid item
+grid-row                |	A shorthand property for the grid-row-start and the grid-row-end properties
+grid-row-end            |	Specifies where to end the grid item
+grid-row-start          |	Specifies where to start the grid item
+grid-template           |	A shorthand property for the grid-template-rows, grid-template-columns and grid-areas properties
+grid-template-areas	    | Specifies how to display columns and rows, using named grid items
+grid-template-columns	| Specifies the size of the columns, and how many columns in a grid layout
+grid-template-rows	    |Specifies the size of the rows in a grid layout
+row-gap                 |	Specifies the gap between the grid rows
+
+2D transform
+  it allows you to move,rotate,scaleand skew elements
+  translate():it moves an element from its current position(according to the parameters given for x-axis and the y-axis)
+  rotate(): it roates an element clockwise or anticlockwise according to a given degree(rotate(90deg))
+  scale(): it increases or decreaes the size of an element(according to the parameter given for the width and height)
+  scalex(): it increases or decreases the width of an element
+  scaley(): it increases or decreases the height of an element
+  skewX(): it skews an element along x-axis by the given angle(skewX(20deg))
+  skewY(): it skews an element along y-axis by the given angle(skewY(20deg))
+  skew(): it skewsan element along x and y-axis by the given angle(skew(20deg,10deg))
+  matrix():it it combines all 2D transform function into one{scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY()}
+
+  3D transforms
+    it allows changing element using 3D transformations
+    rotateX():it rotates an element around its x-axis at a given degree
+    rotateY():it rotates an element around its y-axis at a given degree
+    rotateZ():it rotates an element around its z axis at a given degree
+
+    css transitions
+     it allows you to change property values smoothly,over a given duration
+     transition               : a shorthand property for setting the four transition properties into a single property
+     transition-delay         : Specifies a delay (in seconds) for the transition effect
+     transition-duration      : Specifies how many seconds or milliseconds a transition effect takes to complete
+      transition-property     : Specifies the name of the CSS property the transition effect is for
+      transition-timing-function : Specifies the speed curve of the transition effect
+      vlaues of transition-timing-functions:
+      ease        : specifies a transition effect with slow start then fast then end slowly(this is default)
+      linear      : specifies a transition effect with the same speed from start to end
+      ease-in     : specifies a transition effect with a slow start
+      ease-out    : specifies a transition effect with a slow end
+      ease-in-out : specifies a transition effect with a slow start and end(combination of ease in/out)
+
+  css animations
+   it changes the appearences and behavior of various elements in web pages
+   @keyframes	Specifies the animation code
+   animation	             : A shorthand property for setting all the animation properties
+   animation-delay	       : Specifies a delay for the start of an animation
+   animation-direction	       : Specifies whether an animation should be played forwards, backwards or in alternate cycles
+   animation-duration	       : Specifies how long time an animation should take to complete one cycle
+   animation-fill-mode	       : Specifies a style for the element when the animation is not playing (before it starts, after it ends, or both)
+   animation-iteration-count   : Specifies the number of times an animation should be played
+   animation-name              : Specifies the name of the @keyframes animation
+   animation-play-state	       : Specifies whether the animation is running or paused
+   animation-timing-function   : Specifies the speed curve of the animation
+
+  The differnece between transition and animation is transitions provide a change from one state to another 
+  while animations can set mutiple points of transition upon different keyframes.
+
+  css box sizing
+   it allows us to include padding and border in an elements total width and height
+   actual width of an element=width+padding+border
+   actual height of an element=height+padding+border
+
+   
+   
